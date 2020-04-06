@@ -10,8 +10,10 @@ p{
     line-height: 1.6;
     font-weight: 400;
     color: #606060;
+}
 
-
+i{
+    color: #2fccd0;
 }
 
 
@@ -42,7 +44,7 @@ p{
 
 }
 
-.navbar::before{
+.navbar:before{
 
     content: "";
     position: absolute;
@@ -126,4 +128,91 @@ transform: translate(-50%, -50%);
 
 
 }
+/* ************** Three extra header div start ****************** */
+
+.header-extradiv{ 
+
+    width: 100%;
+    height: auto;
+    margin: 100px 0;
+    text-align: center;
+}
+
+.extra-div {
+    background: #fff;
+    border: medium none;
+    padding: 50px!important;
+    border-radius: 3px;
+    transition: 0.3s;
+}
+
+.extra-div h2,.servicediv h2{
+
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+
+
+}
+.extra-div:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+
+}
+
+/* ************** Three extra header div end ****************** */
+
+/* ************** Offer Css div start ****************** */
+
+.serviceoffers{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+
+}
+.headings{
+    margin-bottom: 50px;
+}
+.headings h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    height: 0.8rem!important;
+    margin-bottom: 25px!important;
+    background: #606060;
+}
+/* ************** Offer Css  div end ****************** */
+
+/* ************** projects done  div start ****************** */
+
+.projectwork{
+
+
+    margin:100px 0;
+}
+
+.projectwork h1{
+
+    font-size: 2rem;
+    text-align: center;
+}
+/* ************** projects done  div end ****************** */
 
